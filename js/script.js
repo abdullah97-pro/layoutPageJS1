@@ -26,3 +26,10 @@ container.appendChild(title);
 container.appendChild(content);
 container.appendChild(img);
 
+// css codes
+title.style.textAlign = "center";
+title.style.padding = "8px";
+
+content.style.fontSize = "large";
+content.style.padding = "8px 16px";
+content.style.wordBreak = "break-all";
