@@ -1,6 +1,12 @@
-"use strict"
+// how to create h1 element
+var title = document.createElement("h1");
+// add value to h1 tag
+title.textContent = "Heading";
 
-var fname = "Paiman";
-var lname = "Mohammadi";
+// get div by id name
+var container = document.getElementById('container');
 
-console.log(fname +" "+lname);
+// include h1 tag into div container
+container.appendChild(title);
+
+
