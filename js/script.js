@@ -33,3 +33,12 @@ title.style.padding = "8px";
 content.style.fontSize = "large";
 content.style.padding = "8px 16px";
 content.style.wordBreak = "break-all";
+
+img.addEventListener("load", function() {
+    img.classList.add("img");
+});
+
+// img.addEventListener("mouseout", function() {
+//     img.classList.remove("img");
+// });
+
